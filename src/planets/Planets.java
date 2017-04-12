@@ -62,11 +62,11 @@ public class Planets extends Application {
         
         Label lbMars = new Label("Mars");
         lbMars.setStyle("-fx-font-size: 18pt; -fx-text-fill: #000000;");
-        gridPane.add(lbMars, 0, 3);
+        gridPane.add(lbMars, 0, 3); //
         
         tfMars = new TextField();
         tfMars.setEditable(false);
-        gridPane.add(tfMars, 1, 3);
+        gridPane.add(tfMars, 1, 3); //add to grid
         
         Label lbJupiter = new Label("Jupiter");
         lbJupiter.setStyle("-fx-font-size: 18pt; -fx-text-fill: #000000;");
